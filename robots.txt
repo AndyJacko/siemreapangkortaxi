@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /backups/
+Disallow: /scripts/
+Disallow: /Templates/
+Sitemap: http://siemreapangkortaxi.com/sitemap.xml
