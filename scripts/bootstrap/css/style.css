@@ -1,0 +1,236 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+    position: relative;
+}
+
+.fa {
+	padding-left: 10px;	
+	padding-right: 10px;	
+}
+
+.spacer {
+	padding-top: 10px;
+}
+
+.spacer20 {
+	padding-top: 20px;
+}
+
+.spacer40 {
+	padding-top: 40px;
+}
+
+.error {
+	color: #f00;	
+}
+
+.sidenav {
+	padding-top: 10px;
+	height: 100%;
+}
+
+#menu {
+	color: #ffffff;
+	font-weight: bold;
+}
+  
+@media screen and (max-width: 767px) {
+  .sidenav {
+	  height: auto;
+	  padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
+
+#tripadvisor {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    z-index: 100;
+    color: #000;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+
+#translate {
+    position: absolute;
+    top: 154px;
+    right: 17px;
+    z-index: 100;
+    color: #000;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.botcorners {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+/*PAGE SPECIFIC */
+.attraction {
+    clear: both;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-top: 1px solid #999;
+}
+
+.attraction img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+.page-image {
+ margin: 10px 5px;   
+}
+
+blockquote  {
+    font-style: italic;
+    font-size: 16px;
+}
+
+blockquote span {
+    color: #999;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wiki {
+ font-sixe: 8px;
+ color: #bbb;  
+}
+
+#header-carousel {
+	height: 300px;
+}
+
+#cazza1 {
+	height: 300px;
+	background-image: url(/images/header1.jpg);
+	background-position: top center;
+}
+
+#cazza2 {
+	height: 300px;
+	background-image: url(/images/header2.jpg);
+	background-position: top center;
+}
+
+#cazza3 {
+	height: 300px;
+	background-image: url(/images/header3.jpg);
+	background-position: top center;
+}
+
+#cazza4 {
+	height: 300px;
+	background-image: url(/images/header4.jpg);
+	background-position: top center;
+}
+
+#cazza5 {
+	height: 300px;
+	background-image: url(/images/header5.jpg);
+	background-position: top center;
+}
+
+#gallery {
+	text-align: center;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 10px;
+}
+
+#thumbnails img {
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline-block;	
+}
+
+#contactwrap {
+	padding-top:0px;
+	text-align:center;
+	min-height: 200px;
+	width: 100%;
+}
+
+#contactwrap iframe {
+	border: 0px;
+	height: 200px;
+	width: 100%;
+    pointer-events: none;
+}
+
+footer {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: small;
+	text-align: center;
+	background-color: #3d3d3d;
+	color: #aaaaaa;
+}
+
+footer hr {
+    border: 0;
+    height: 0; 
+    box-shadow: 0 0 10px 1px #ffffff;
+}
+
+.tooltip.top {
+    margin-top: -15px;
+}
+
+#copy {
+	color: #999999;
+}
+
+
+/**  Carousel Fade **/
+
+.carousel.fade {
+  opacity: 1;
+}
+
+.carousel.fade .item {
+  transition: opacity ease-out 2s;
+  left: 0;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 1;
+  position: relative;
+}
+
+.carousel.fade .item.active {
+  opacity: 1;
+}

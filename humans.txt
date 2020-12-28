@@ -1,0 +1,12 @@
+﻿/* TEAM */
+	Owner: Andy Jacko
+	Contact: andy [at] andyjacko.com
+	Twitter: @4ndyjacko
+	From: Manchester, UK
+
+
+/* SITE */
+	Language: English
+	Doctype: HTML5, CSS3, Bootstrap
+	IDE: Dreamweaver CC, Photoshop CC
+	
